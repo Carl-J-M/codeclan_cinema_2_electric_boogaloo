@@ -1,0 +1,5 @@
+
+  <h1>CodeClan Cinema!</h1>
+  <% for film in @films %>
+  <h1><a href="/films/<%=film.id%>"><%= film.title %> </a> </h1>
+  <% end %>
